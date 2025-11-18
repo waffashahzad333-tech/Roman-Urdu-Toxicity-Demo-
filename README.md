@@ -1,29 +1,28 @@
 # Roman Urdu Toxicity Detection — Demo
 **Author:** Waffa Shahzad
 
-## Project summary
-I fine-tuned a multilingual BERT (mBERT) model to detect toxic and offensive content in Roman Urdu and code-mixed Urdu-English comments. This demo shows dataset creation, model training, and prediction examples.
+## Project Summary
+I built a fine-tuned multilingual BERT (mBERT) model to detect toxic and offensive content in Roman Urdu and code-mixed Urdu-English comments. This demo includes dataset creation, model training, and prediction examples.
 
-## What I built
-- Labeled dataset (starter sample) for Roman Urdu / code-mixed comments  
-- Fine-tuned mBERT classifier with 4 classes: Safe, Mild Toxic, Offensive, Abusive  
-- Simple inference demo (Colab notebook + screenshots)
-
-## How to run (quick)
-1. Open the Colab notebook `roman_urdu_demo.ipynb`.  
-2. Run cells to load dataset, train model and try demo inputs.  
-3. See predictions and screenshots in this repo.
-
-## Results (example)
-- Training output and loss: see `trainer_output.png`  
-- Example predictions: see `predictions_output.png`
+## How It Works
+- Labeled dataset for Roman Urdu/code-mixed comments
+- Fine-tuned mBERT classifier with multiple labels
+- Predictions demo with example inputs and outputs
+- Screenshots of training and predictions included
 
 ## Skills & Tools
-- Python, Pandas, HuggingFace Transformers, Google Colab  
-- Text classification, tokenization, model fine-tuning
+- Python, Google Colab, HuggingFace Transformers
+- NLP, Text Classification, Dataset creation, Model fine-tuning
+
+## Screenshots
+- `trainer_output.png` — Model training output  
+- `predictions_output.png` — Example predictions  
+
+## Colab Notebook
+[Open Demo in Google Colab](https://colab.research.google.com/drive/1cTX4aisZCnFqZAb7mwCAraP2OSdYhLRY?usp=sharing)
 
 ## Contact
-**Email:** waffashahzad333@gmail.com  
-**LinkedIn:** https://www.linkedin.com/in/waffa-shahzad-17aaa9286/
+Email: waffashahzad333@example.com  
+LinkedIn: https://www.linkedin.com/in/waffa-shahzad-17aaa9286
 
 
